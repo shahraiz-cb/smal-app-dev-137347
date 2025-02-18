@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Aspire.DesignGenerator.Processing.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MsmqName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\private$\DesignGeneratorCqrsQueue</Value>
+    </Setting>
+    <Setting Name="SnapshotFrequency" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="NotificationUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost/DesignGenerator/Notification/Notify</Value>
+    </Setting>
+    <Setting Name="OperationCompleteUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost/DesignGenerator/Notification/OperationComplete</Value>
+    </Setting>
+    <Setting Name="MsmqBadName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\private$\DesignGeneratorCqrsBadQueue</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
